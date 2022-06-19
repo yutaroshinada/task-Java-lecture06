@@ -24,6 +24,6 @@ public class HelloWorldController {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         System.out.println(now.format(formatter));
 
-        return (now.format(formatter));
+        return now.format(formatter);
     }
 }
